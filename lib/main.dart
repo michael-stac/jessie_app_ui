@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 
+import 'Screens/airtime_subscription/ui/educational_payment.dart';
+import 'Screens/airtime_subscription/ui/electric_bill_payment.dart';
 import 'Screens/airtime_subscription/ui/home.dart';
+import 'Screens/airtime_subscription/ui/internet_cabel.dart';
 
 void main() {
   runApp( MyApp());
@@ -19,7 +22,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
 
-      home: const HomePqge(),
+      home: const EducationalPayment(),
     );
   }
 }
