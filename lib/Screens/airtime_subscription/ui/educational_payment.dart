@@ -745,46 +745,46 @@ class _WelcomePageState extends State<EducationalPayment>
                                             width: 0.6)),
                                     child: Row(
                                       mainAxisAlignment:
-                                          MainAxisAlignment.spaceBetween,
+                                      MainAxisAlignment.spaceBetween,
                                       children: [
                                         Expanded(
                                             child: TextFormField(
-                                          style: const TextStyle(
-                                              color: Color(0xffC4C4C4)),
-                                          keyboardType:
+                                              style: const TextStyle(
+                                                  color: Color(0xffC4C4C4)),
+                                              keyboardType:
                                               TextInputType.emailAddress,
-                                          textInputAction: TextInputAction.next,
-                                          decoration: InputDecoration(
-                                            contentPadding:
+                                              textInputAction: TextInputAction.next,
+                                              decoration: InputDecoration(
+                                                contentPadding:
                                                 const EdgeInsets.symmetric(
                                                     horizontal: 20),
-                                            hintText: '4,700.00',
-                                            helperStyle: GoogleFonts.nunito(
-                                                fontSize: 14,
-                                                fontWeight: FontWeight.w400,
-                                                color: Colors.black26),
-                                            hintStyle: const TextStyle(
-                                              color: Color(0xffC4C4C4),
-                                            ),
-                                            enabledBorder:
+                                                hintText: '4,700.00',
+                                                helperStyle: GoogleFonts.nunito(
+                                                    fontSize: 14,
+                                                    fontWeight: FontWeight.w400,
+                                                    color: Colors.black26),
+                                                hintStyle: const TextStyle(
+                                                  color: Color(0xffC4C4C4),
+                                                ),
+                                                enabledBorder:
                                                 const OutlineInputBorder(
                                                     borderSide:
-                                                        BorderSide.none),
-                                            focusedBorder:
+                                                    BorderSide.none),
+                                                focusedBorder:
                                                 const OutlineInputBorder(
                                                     borderSide:
-                                                        BorderSide.none),
-                                          ),
-                                        )),
+                                                    BorderSide.none),
+                                              ),
+                                            )),
                                         Container(
                                           decoration: BoxDecoration(
                                               color: Colors.green.shade50,
                                               borderRadius:
-                                                  const BorderRadius.only(
-                                                      topRight:
-                                                          Radius.circular(10),
-                                                      bottomRight:
-                                                          Radius.circular(10))),
+                                              const BorderRadius.only(
+                                                  topRight:
+                                                  Radius.circular(10),
+                                                  bottomRight:
+                                                  Radius.circular(10))),
                                           child: Padding(
                                             padding: const EdgeInsets.symmetric(
                                                 horizontal: 23, vertical: 21),
@@ -841,12 +841,9 @@ class _WelcomePageState extends State<EducationalPayment>
                                             borderRadius:
                                                 BorderRadius.circular(10)),
                                         focusedBorder: OutlineInputBorder(
-                                            borderSide: const BorderSide(
-                                              color: Color(0xffADB5BD),
-                                              width: 2,
-                                            ),
-                                            borderRadius:
-                                                BorderRadius.circular(10)),
+                                          borderSide: BorderSide.none
+
+                                           ),
                                       ),
                                     ),
                                   ),
